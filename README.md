@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Groovy when modifying a list while iterating using `eachWithIndex`. The `bug.groovy` file shows the problematic code, where removing an element during iteration disrupts the index and leads to skipping elements.  The `bugSolution.groovy` offers a corrected approach, ensuring all intended elements are processed.
